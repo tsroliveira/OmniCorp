@@ -286,3 +286,10 @@ O projeto foi criado com o objetivo de desenvolver um sistema corporativo modula
 - Estrutura modular para fácil expansão e manutenção
 
 Este README combina informações detalhadas sobre a configuração, execução e estrutura do projeto, além de fornecer um resumo dos objetivos e características principais. 
+
+
+
+# Para usar no Macos
+docker-compose -f docker-compose-macos.yaml up -d
+docker-compose -f docker-compose-macos.yaml down
+docker-compose -f docker-compose-macos.yaml ps
